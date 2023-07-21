@@ -1,0 +1,78 @@
+body{
+	font-size: 20px;
+	background-color: #4D2118; /* Cor de fundo do corpo */
+	font-family: Arial, sans-serif; /* Fonte usada para o texto do corpo */
+	color: #ffffff; /* Cor do texto do corpo */
+	background: rgb(115,50,36);
+	background: -moz-linear-gradient(90deg, rgba(115,50,36,1) 0%, rgba(153,67,47,1) 100%);
+	background: -webkit-linear-gradient(90deg, rgba(115,50,36,1) 0%, rgba(153,67,47,1) 100%);
+	background: linear-gradient(90deg, rgba(115,50,36,1) 0%, rgba(153,67,47,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#733224",endColorstr="#99432f",GradientType=1);  
+}
+nav {
+	line-height: 1.5em;;
+	margin: auto auto auto 0;
+	font-size: 25px;
+	padding: 0 2rem;
+}
+
+img#logo{
+	height: 5rem;
+}
+
+a.header{
+	color: #bf8d57;
+}
+
+a#logo_link{
+	margin: auto 0 auto auto;
+}
+
+header{
+	border-bottom: solid;
+	border-width: 5px; 
+	border-color: #33221F;	
+	padding: 1% 0;
+}
+
+main{
+	width: 90vw;
+	border-style: solid;
+	border-width: 5px;
+	border-radius: 5px;
+	border-color: #33221F;	
+	background-color: #33221F61;
+	margin: 0 auto;
+}
+section{
+	margin: 0 auto;
+	width: 95%;
+	padding: 2% 0;
+}
+
+div#linha_header{
+	display:flex;
+	width: 90%;
+	margin: auto auto
+}
+
+fieldset{
+	border-style: double;
+	border-radius: 5px;
+	border-color: #33221F;
+	border-width: 5px;
+	width: fit-content;
+	margin: 0 auto;
+}
+
+input[type="text"],input[type="email"],input[type="password"],input[type="tel"],input[type="submit"]{
+	padding: 0.5rem 0;
+	margin-top: 0.5rem;
+	width: 100%;
+}
+
+input[type="radio"]{
+	margin-top: 0.5rem;
+}
+
+/**{border: solid red;}*/

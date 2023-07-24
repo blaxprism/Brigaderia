@@ -25,6 +25,19 @@ class CadastroBanco{
             return "Erro ao cadastrar o usuário";
         }
 	}
+
+	public function CadastroBrigadeiro($conexao, $nome, $massa, $cobertura){
+		// Executar a consulta SQL de inserção de um novo brigadeiro
+        $consulta = "INSERT INTO `brigadeiros`(`nome`, `massa`, `cobertura`) VALUES ('$nome','$massa', '$cobertura')";
+        $resultado = mysqli_query($conexao, $consulta);
+
+		// Verificar se a inserção foi bem-sucedida
+        if ($resultado) {
+            return "brigadeiro cadastrado com sucesso!";
+        } else {
+            return "Erro ao cadastrar o brigadeiro";
+        }
+	}
 }
 
 

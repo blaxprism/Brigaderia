@@ -1,5 +1,5 @@
 body{
-	font-size: 20px;
+	font-size: 1.4rem;
 	background-color: #4D2118; /* Cor de fundo do corpo */
 	font-family: Arial, sans-serif; /* Fonte usada para o texto do corpo */
 	color: #ffffff; /* Cor do texto do corpo */
@@ -9,10 +9,11 @@ body{
 	background: linear-gradient(90deg, rgba(115,50,36,1) 0%, rgba(153,67,47,1) 100%);
 	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#733224",endColorstr="#99432f",GradientType=1);  
 }
+
 nav {
-	line-height: 1.5em;;
+	line-height: 1.5em;
 	margin: auto auto auto 0;
-	font-size: 25px;
+	font-size: 1.8rem;
 	padding: 0 2rem;
 }
 
@@ -61,7 +62,7 @@ fieldset{
 	border-radius: 5px;
 	border-color: #33221F;
 	border-width: 5px;
-	width: fit-content;
+	width: 50%;
 	margin: 0 auto;
 }
 
@@ -69,6 +70,10 @@ input[type="text"],input[type="email"],input[type="password"],input[type="tel"],
 	padding: 0.5rem 0;
 	margin-top: 0.5rem;
 	width: 100%;
+	border-style: solid;
+	border-color: #33221F;
+	border-width: 0.3rem;
+	font-size: 1.1rem;
 }
 
 input[type="radio"]{
@@ -76,3 +81,33 @@ input[type="radio"]{
 }
 
 /**{border: solid red;}*/
+
+h1{
+	width: fit-content;
+	font-size: 2.5rem;
+	margin-left:auto;
+	margin-right: auto;
+}
+
+span.spacing_links{
+	letter-spacing: 1.5rem;
+}
+
+div#cardapio{
+	border-style: double;
+	border-radius: 5px;
+	border-color: #33221F;
+	border-width: 5px;
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+li{
+	margin: 1rem;
+	width: fit-content;
+}
+
+ul{
+	width: fit-content;
+}
